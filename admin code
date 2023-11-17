@@ -1,0 +1,46 @@
+#Creating Admin class
+Class Admin:
+
+    Def __init__(self, fname, lname, address, user_name, password, full_rights):
+        Self.fname = fname
+        Self.lname = lname
+        Self.address = address
+        Self.user_name = user_name
+        Self.password = password
+        Self.full_admin_rights = full_rights
+
+    Def update_first_name(self, fname):
+        Self.fname = fname
+
+    Def update_last_name(self, lname):
+        Self.lname = lname
+
+    Def get_first_name(self):
+        Return self.fname
+
+    Def get_last_name(self):
+        Return self.lname
+
+    Def update_address(self, addr):
+        Self.address = addr
+
+    Def set_username(self, uname):
+        Self.user_name = uname
+
+    Def get_username(self):
+        Return self.user_name
+
+    Def get_address(self):
+        Return self.address      
+
+    Def update_password(self, password):
+        Self.password = password
+
+    Def get_password(self):
+        Return self.password
+
+    Def set_full_admin_right(self, admin_right):
+        Self.full_admin_rights = admin_right
+
+    Def has_full_admin_right(self):
+        Return self.full_admin_rights
